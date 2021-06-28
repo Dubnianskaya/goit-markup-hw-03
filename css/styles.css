@@ -47,19 +47,25 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 94px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*====HEADER====*/
 
 .header {
+  padding: 25px 0;
   border: 1px solid #ECECEC;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  padding: 25px 0;
 }
 
 .header-nav {
@@ -143,9 +149,6 @@ body {
 .hero {
   background-color: var(--secondary-background-color);
   text-align: center;
-}
-
-.hero-container {
   padding: 200px 0;
 }
 
@@ -181,7 +184,7 @@ body {
 }
 
 /*====ADVANTAGES====*/
-.advantages-container {
+.advantages {
   padding-bottom: 47px;
 }
 
@@ -215,7 +218,7 @@ body {
 
 /*====SERVISES====*/
 
-.servises-container {
+.servises {
   padding-top: 47px;
 }
 
@@ -374,12 +377,10 @@ body {
 
 /*====FOOTER====*/
 .footer {
+  padding: 60px 0;
   background-color: var(--secondary-background-color);
 }
 
-.footer-container {
-  padding: 60px 0;
-}
 
 .footer-logo {
   display: block;
